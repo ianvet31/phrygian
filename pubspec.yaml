@@ -10,9 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  pitch_detector_dart: ^1.0.0
   permission_handler: ^11.0.0
-  flutter_mic: ^1.0.0
+  # Reserved for future audio processing implementation:
+  # pitch_detector_dart: ^1.0.0
+  # flutter_mic: ^1.0.0
 
 dev_dependencies:
   flutter_test:
