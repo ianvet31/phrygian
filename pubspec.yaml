@@ -11,9 +11,12 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   permission_handler: ^11.0.0
-  # Reserved for future audio processing implementation:
-  # pitch_detector_dart: ^1.0.0
-  # flutter_mic: ^1.0.0
+  # Audio recording for pitch detection - works on Android & iOS
+  flutter_sound: ^9.2.13
+  # JavaScript interop for web audio
+  js: ^0.6.7
+  # PDF viewer that works on Web, Android, and iOS - lightweight and performant
+  pdfx: ^2.7.0
 
 dev_dependencies:
   flutter_test:
@@ -22,3 +25,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  
+  # Music files (PDFs, images, etc.)
+  assets:
+    - music/The_Real_Book_6th_Ed_.pdf
+    # Add more music files here as you add them to the music folder
